@@ -1,0 +1,106 @@
+body {
+    background: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#liConta {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#liConta:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+    margin-bottom: 30px;
+    
+}
+
+img {
+    width: 580px;
+    margin-left: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    font-family: poppinsmedium;
+    font-size: 15px;
+}
+
+#btnEnviar {
+    width: 40%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+#btnEnviar:hover {
+    background-color: white;
+    color: rgb(132, 14, 201);
+    transition: 00.3s all;
+}
